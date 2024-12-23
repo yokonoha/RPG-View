@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--        ########################################################                 -->
+    <!--        RPG View by Yokoha Studio  会話パートのHTML,JS,CSSフル実装                 -->
+    <!--        ########################################################                 -->
+    <!--RPGなんて一切やったことのない製作者がRPGゲーム開発に乗り出そうとして失敗したので        -->
+    <!--コンポーネントにして配布します。RPGが作りたいっていう方のサポートになれば幸いです!      -->
+    <!--肝心のRPG開発は後でまた挑戦するかもです...(しないかも...?)                           -->
+    <!--License:横茶横葉Aライセンス (改変、商用可。ライセンスの既定内でご自由にお使いください)  -->
+    <!--詳細: https://yokonoha.github.io/alicense        詳しい説明は同梱rvsys.jsへ        -->
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>RPG View Sample Implementation</title>
+  <meta charset="UTF-8">
+  <link href="./rpv.css" rel="stylesheet">
+</head>
+<style>
+  #choices {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+</style>
+<body>
+
+  <!--必要なもの/Prerequisites for RPG View by Yokoha-->
+  <div class="bk" id="bk"></div>
+  <div class="dialogue" id="dialogue"></div>
+  <img src="char1.png" class="charL" id="charL" style="display:none;">
+  <img src="char3.png" class="charC" id="charC" style="display:none;">
+  <img src="char2.png" class="charR" id="charR" style="display:none;">
+
+
+  <!--おまけ appendix-->
+  <!--ロード画面風説明画面/Description screen(like a loading screen)-->
+<div class="ls" id="ls">
+  <div>
+    <img src="tips.png" alt="Tips">
+    <p>Now Loading...</p>
+    <div class="progress-container">
+        <div class="progress" id="progress"></div>
+    </div>
+</div>
+</div>
+<!--ホワイトアウト/White out-->
+<div class="wo" id="wo"></div>
+
+</body>
+<script src="./rvsys.js"></script>
+</html>
