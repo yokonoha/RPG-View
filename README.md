@@ -4,7 +4,7 @@ WebRPGゲーム開発用会話画面とベーシックシステム
 Basic System Script &amp; Dialogue screen component for WebRPG games development  
 ## 特徴/Features  
 実装例 / Examples:
-English/Japanese/Chinese(Simplified)
+English/Japanese/Chinese(Simplified)  
 <img src="./1 (2).png" width="40%"></img>  
 <img src="./1 (1).png" width="40%"></img>  
 <img src="./1 (3).png" width="40%"></img>  
