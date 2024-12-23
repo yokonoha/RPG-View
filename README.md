@@ -11,7 +11,8 @@ English/Japanese/Chinese(Simplified)
 <img src="./1 (2).png" width="40%"></img>  
 <img src="./1 (1).png" width="40%"></img>  
 <img src="./1 (3).png" width="40%"></img>  
-画像では紹介していませんが、3人のキャラクター画像を右、左、中央に配置できます。  
+(日本語環境にて英語以外を使用するとフォントが変になりそうです。)
+画像では紹介していませんが、3人のキャラクター画像を右、左、中央に配置できます!  
 There are 3 picture boxes to show 3 person images.(Right Center Left)
 ダイアログは1文字ずつ話すように出現するようになっています。お好みでSE(サウンドエフェクト)をつける というのも良さそうです。  
 The text will appear as if you were speaking one letter at a time. It may be a good idea to add SE (sound effects) to the dialog if you like.  
