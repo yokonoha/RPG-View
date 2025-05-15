@@ -4,7 +4,6 @@ WebRPGゲーム開発用会話画面とベーシックシステム
 Basic System Script &amp; Dialogue screen component for WebRPG games development  
 ## 経緯/Why I published this system  
 やったこともないのに単純にRPGゲームを作ろう! と考えて無計画に作り始め、挫折してしまったので公開しました。  
-(I omitted English translation of this section...)
 ## 特徴/Features  
 実装例 / Examples:
 English/Japanese/Chinese(Simplified)  
